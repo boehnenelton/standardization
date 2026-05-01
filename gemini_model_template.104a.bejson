@@ -1,0 +1,30 @@
+{
+  "Format": "BEJSON",
+  "Format_Version": "104a",
+  "Format_Creator": "Elton Boehnen",
+  "Schema_Name": "GeminiModelTemplate",
+  "Records_Type": [
+    "GeminiModel"
+  ],
+  "Fields": [
+    {
+      "name": "model_name",
+      "type": "string"
+    },
+    {
+      "name": "model_id",
+      "type": "string"
+    },
+    {
+      "name": "currently_active",
+      "type": "boolean"
+    }
+  ],
+  "Values": [
+    ["Gemini 3.1 Pro (Preview)", "gemini-3.1-pro-preview", false],
+    ["Gemini 3 Flash (Preview)", "gemini-3-flash-preview", true],
+    ["Gemini 3.1 Flash-Lite (Preview)", "gemini-3.1-flash-lite-preview", false],
+    ["Gemini Flash-Lite (Latest)", "gemini-flash-lite-latest", false],
+    ["Gemini 2.5 Flash", "gemini-2.5-flash", false]
+  ]
+}
